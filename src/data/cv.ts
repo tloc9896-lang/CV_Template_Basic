@@ -86,7 +86,7 @@ export type CVContent = {
 };
 
 export const cv = {
-  /** Thông tin cá nhân */
+ 
   personal: {
     fullName: "Nguyễn Thị Phúc Lộc ",
     title: "Thực tập sinh",
@@ -94,18 +94,13 @@ export const cv = {
     location: "Tây Ninh, Việt Nam",
   },
 
-  /** Tóm tắt nghề nghiệp (3–5 câu) */
+  
   summary:
-    "Kỹ sư phần mềm với hơn 3 năm kinh nghiệm phát triển ứng dụng web full-stack. Tập trung vào trải nghiệm người dùng, chất lượng code và quy trình làm việc theo Agile. Mong muốn đóng góp vào đội ngũ phát triển sản phẩm có tác động thực tế.",
-
-  /**
-   * Thông tin cá nhân bổ sung (sidebar).
-   * Để "" hoặc [] để ẩn từng mục — xem HUONG_DAN_NHAP_LIEU.md
-   */
+    " Quảng trị mạng / Thiết kế web ",
   personalInfo: {
-    /** Phương châm sống */
+  Sống khoẻ , sống đẹp là được
     motto: "Học hỏi không ngừng, làm việc có trách nhiệm, coi trọng sự tử tế.",
-    /** Kỹ năng mềm */
+  " Làm việc hiệu quả hơn , tăng cơ hội nghề nghiệp và thăng tiến "
     softSkills: [
       "Giao tiếp & thuyết trình",
       "Làm việc nhóm & Agile",
@@ -113,17 +108,16 @@ export const cv = {
       "Tư duy phản biện",
       "Quản lý thời gian",
     ],
-    /** Sở thích */
+    
     interests: ["Đọc sách công nghệ", "Chạy bộ", "Mở source", "Nhiếp ảnh"],
-    /** Mong muốn / định hướng nghề nghiệp */
-    aspirations:
-      "Mong muốn gia nhập môi trường product-focused, được tham gia xây dựng sản phẩm có quy mô người dùng thật, phát triển lên Senior trong 2–3 năm tới.",
+        aspirations:
+      "Mong muốn trở thành lập trình viên giỏi và tạo ra các phần mềm hữu ích .",
   },
 
   contact: [
-    { label: "email@example.com", href: "mailto:email@example.com", icon: "email" },
-    { label: "+84 900 000 000", href: "tel:+84900000000", icon: "phone" },
-    { label: "Hồ Chí Minh, Việt Nam", href: "#", icon: "location" },
+    { label: "tloc9896@gmail.com", href: "mailto:tloc9896@gmail.com", icon: "email" },
+    { label: "+84 877132695", href: "tel:+84877132695", icon: "phone" },
+    { label: "Tây Ninh, Việt Nam", href: "#", icon: "location" },
     {
       label: "linkedin.com/in/username",
       href: "https://linkedin.com/in/username",
@@ -146,10 +140,10 @@ export const cv = {
       ],
     },
     {
-      company: "Startup XYZ",
-      role: "Full-stack Developer",
-      location: "Remote",
-      period: "06/2021 – 12/2022",
+      company: " TTC ",
+      role: "Thực tập sinh",
+      location: "Tây Nninh , Việt Nam",
+      period: "05/2024 – 05/2026",
       highlights: [
         "Xây dựng MVP sản phẩm SaaS từ ý tưởng đến production trong 4 tháng.",
         "Tích hợp thanh toán, xác thực OAuth và hệ thống thông báo real-time.",
