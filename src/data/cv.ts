@@ -88,10 +88,10 @@ export type CVContent = {
 export const cv = {
   /** Thông tin cá nhân */
   personal: {
-    fullName: "Nguyễn Thi ",
-    title: "Software Engineer",
-    tagline: "Xây dựng sản phẩm web hiệu năng cao, dễ bảo trì",
-    location: "Hồ Chí Minh, Việt Nam",
+    fullName: "Nguyễn Thị Phúc Lộc ",
+    title: "Thực tập sinh",
+    tagline: "Sống khoẻ,sống đẹp là được",
+    location: "Tây Ninh, Việt Nam",
   },
 
   /** Tóm tắt nghề nghiệp (3–5 câu) */
